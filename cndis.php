@@ -5,7 +5,7 @@
 <body>
 <?php
 $file = "cndis.txt"; 
-echo "<a href='https://equip-location.herokuapp.com/cndis.csv'>donload</a> ";
+echo "<a href='https://equip-location.herokuapp.com/cndis.txt'>donload</a> ";
 $Ti = date("H:i:s",mktime(date("H")+7, date("i")+0, date("s")+0));
 $Da = date("d.m.y");
 echo " สถิติการใช้งาน Pea Smart Query(ระเบียบก่อสร้างปี 59) สถานะ:"." วันที่  ".$Da."  เวลา  ".$Ti;
