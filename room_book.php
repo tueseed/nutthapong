@@ -19,31 +19,31 @@
             </div>
         </div>
 		<div class="mt-5 container-fluid">
-            <div class="row">
+            <div class="mt-2 row">
                 <div class="col-lg-4 offset-lg-4">
 					<label>วันที่เข้าพัก</label> 
                     <input type="date" name="date_in"class="form-control" placeholder="ระบุวันที่">
                 </div>
             </div>
-			<div class="row">
+			<div class="mt-2 row">
                 <div class="col-lg-4 offset-lg-4">
 					<label>ถึงวันที่</label> 
                     <input type="date" name="date_out"class="form-control" placeholder="ระบุวันที่">
                 </div>
             </div>
-			<div class="row">
+			<div class="mt-2 row">
                 <div class="col-lg-4 offset-lg-4">
 					<label>ชื่อผู้จอง</label> 
                     <input type="text" name="cs_name"class="form-control" placeholder="ชื่อ-นามสกุล">
                 </div>
             </div>
-			<div class="row">
+			<div class="mt-2 row">
                 <div class="col-lg-4 offset-lg-4">
 					<label>เบอร์โทรศัพท์</label> 
                     <input type="tel" name="phone_number"class="form-control" placeholder="เบอร์โทรศัพท์">
                 </div>
             </div>
-			<div class="mt-5 row">
+			<div class="mt-2 row">
                 <div class="col-lg-4 offset-lg-4">
                     <input type="submit" class="btn btn-success btn-block" value="บันทึก">
                 </div>
