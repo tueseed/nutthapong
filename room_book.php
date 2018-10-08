@@ -43,9 +43,9 @@
                     <input type="tel" name="phone_number"class="form-control" placeholder="เบอร์โทรศัพท์">
                 </div>
             </div>
-			<div class="row">
+			<div class="mt-5 row">
                 <div class="col-lg-4 offset-lg-4">
-                    <input type="submit" class="btn btn-success" value="บันทึก">
+                    <input type="submit" class="btn btn-success btn-block" value="บันทึก">
                 </div>
             </div>
         </div> 
