@@ -21,7 +21,14 @@
 		<div class="mt-5 container-fluid">
             <div class="mt-5 row">
                 <div class="col-lg-4 offset-lg-4">
-                    <input type="date" class="form-control">
+					<label>วันที่เข้าพัก</label> 
+                    <input type="date" name="date_in"class="form-control">
+                </div>
+            </div>
+			<div class="mt-5 row">
+                <div class="col-lg-4 offset-lg-4">
+					<label>ถึงวันที่</label> 
+                    <input type="date" name="date_out"class="form-control">
                 </div>
             </div>
         </div> 
