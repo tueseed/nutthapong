@@ -45,7 +45,7 @@
                     <input type="file" required name="vocfile" class="form-control-file btn btn-dark" id="vocfile" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
 						</div>
 						<div class="mt-2 row">
-							<input class="btn btn-success btn-block" type="submit" value="บันทึก">
+							<input class="btn btn-success btn-block" type="submit" value="Upload">
 						</div>
 					</form>
 				</div>
@@ -54,20 +54,25 @@
 						<table class="table">
 							<thead>
 								<tr>
-									<th>ชื่อ</th>
-									<th>นามสกุล</th>
-									<th>email</th>
+									<th>การไฟฟ้า</th>
+									<th>ชื่องาน</th>
+									<th>เลขที่อนุมัติ</th>
+									<th>ลงวันที่</th>
+									<th>WBS</th>
 								</tr>
 							</thead>
 							<tbody>
 								<?php
-									$sql = "SELECT * FROM inserttesting";
+									$sql = "SELECT * FROM tbl_job_cn";
 									$query = mysqli_query($conn,$sql);
 									while($obj = mysqli_fetch_array($query))
 									{
 										echo "<tr>";
-										echo "<td>".$obj["number"]."</td>";
 										echo "<td>".$obj["office"]."</td>";
+										echo "<td>".$obj["job_name"]."</td>";
+										echo "<td>".$obj["doc_no"]."</td>";
+										echo "<td>".$obj["doc_date"]."</td>";
+										echo "<td>".$obj["wbs"]."</td>";
 										echo "</tr>";
 									}
 								?>
